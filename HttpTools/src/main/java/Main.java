@@ -2,9 +2,7 @@ import java.awt.EventQueue;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
-
 import org.apache.log4j.xml.DOMConfigurator;
-
 import logic.LogicListener;
 import ui.WindowMain;
 import util.Log4jClientManager;
@@ -28,6 +26,7 @@ public class Main {
         if (args.length >= 1) {
             isTerm = true;
         }
+
 
         Log4jClientManager.getInstance().init(isTerm);
 

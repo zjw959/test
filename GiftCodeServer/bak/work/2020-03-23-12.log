@@ -1,0 +1,487 @@
+2020-03-23 12:11:06.0802 [main] INFO  com.Application-[Line:87]>Starting Application on zjw with PID 6320 (E:\Dal\server\GiftCodeServer\target\classes started by Administrator in E:\Dal\server\GiftCodeServer)
+2020-03-23 12:11:06.0815 [main] INFO  com.Application-[Line:87]>No active profile set, falling back to default profiles: default
+2020-03-23 12:11:06.0874 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext-[Line:87]>Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@409c54f: startup date [Mon Mar 23 12:11:06 CST 2020]; root of context hierarchy
+2020-03-23 12:11:09.0853 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-[Line:87]>Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2bf2cde8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-23 12:11:10.0018 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-[Line:87]>Bean 'org.springframework.cache.annotation.ProxyCachingConfiguration' of type [org.springframework.cache.annotation.ProxyCachingConfiguration$$EnhancerBySpringCGLIB$$75050406] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-23 12:11:10.0703 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer-[Line:87]>Tomcat initialized with port(s): 9898 (http)
+2020-03-23 12:11:10.0719 [main] INFO  o.a.coyote.http11.Http11NioProtocol-[Line:180]>Initializing ProtocolHandler ["http-nio-9898"]
+2020-03-23 12:11:10.0743 [main] INFO  o.a.catalina.core.StandardService-[Line:180]>Starting service [Tomcat]
+2020-03-23 12:11:10.0744 [main] INFO  o.a.catalina.core.StandardEngine-[Line:180]>Starting Servlet Engine: Apache Tomcat/8.5.31
+2020-03-23 12:11:10.0759 [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener-[Line:180]>The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_25\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk1.8.0_25\jre\bin;C:/Program Files/Java/jre1.8.0_25/bin/server;C:/Program Files/Java/jre1.8.0_25/bin;C:/Program Files/Java/jre1.8.0_25/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\jdk1.8.0_25\bin;E:\mysql\mysql-5.7.10-winx64\bin;E:\Apache\apache-maven-3.6.3\bin\;C:\Windows\system32;;.]
+2020-03-23 12:11:10.0922 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]-[Line:180]>Initializing Spring embedded WebApplicationContext
+2020-03-23 12:11:10.0922 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader-[Line:87]>Root WebApplicationContext: initialization completed in 4049 ms
+2020-03-23 12:11:11.0144 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean-[Line:87]>Servlet dispatcherServlet mapped to [/]
+2020-03-23 12:11:11.0145 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean-[Line:87]>Servlet statViewServlet mapped to [/druid/*]
+2020-03-23 12:11:11.0149 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean-[Line:87]>Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-03-23 12:11:11.0149 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean-[Line:87]>Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-03-23 12:11:11.0150 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean-[Line:87]>Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-03-23 12:11:11.0150 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean-[Line:87]>Mapping filter: 'requestContextFilter' to: [/*]
+2020-03-23 12:11:11.0150 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean-[Line:87]>Mapping filter: 'webStatFilter' to urls: [/*]
+2020-03-23 12:11:11.0199 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure-[Line:56]>Init DruidDataSource
+2020-03-23 12:11:11.0374 [main] INFO  c.alibaba.druid.pool.DruidDataSource-[Line:928]>{dataSource-1} inited
+2020-03-23 12:11:11.0957 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean-[Line:87]>Building JPA container EntityManagerFactory for persistence unit 'default'
+2020-03-23 12:11:11.0974 [main] INFO  o.h.jpa.internal.util.LogHelper-[Line:31]>HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-03-23 12:11:12.0062 [main] INFO  org.hibernate.Version-[Line:45]>HHH000412: Hibernate Core {5.2.17.Final}
+2020-03-23 12:11:12.0065 [main] INFO  org.hibernate.cfg.Environment-[Line:213]>HHH000206: hibernate.properties not found
+2020-03-23 12:11:12.0118 [main] INFO  o.h.annotations.common.Version-[Line:66]>HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-03-23 12:11:12.0282 [main] INFO  org.hibernate.dialect.Dialect-[Line:157]>HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-03-23 12:11:12.0545 [main] WARN  org.hibernate.mapping.RootClass-[Line:285]>HHH000038: Composite-id class does not override equals(): com.enity.chinese.ChineseUse
+2020-03-23 12:11:12.0545 [main] WARN  org.hibernate.mapping.RootClass-[Line:288]>HHH000039: Composite-id class does not override hashCode(): com.enity.chinese.ChineseUse
+2020-03-23 12:11:12.0546 [main] WARN  org.hibernate.mapping.RootClass-[Line:285]>HHH000038: Composite-id class does not override equals(): com.enity.forever.ForeverUse
+2020-03-23 12:11:12.0547 [main] WARN  org.hibernate.mapping.RootClass-[Line:288]>HHH000039: Composite-id class does not override hashCode(): com.enity.forever.ForeverUse
+2020-03-23 12:11:14.0014 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean-[Line:87]>Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-23 12:11:15.0965 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration-[Line:87]>spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-23 12:11:16.0054 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping-[Line:87]>Mapped "{[/create/chinese/query],methods=[POST || GET]}" onto public java.lang.String com.controller.ChineseCodeController.findPackage(javax.servlet.http.HttpServletRequest)
+2020-03-23 12:11:16.0056 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping-[Line:87]>Mapped "{[/create/chinese/code],methods=[POST || GET]}" onto public java.lang.String com.controller.ChineseCodeController.createInvitation(javax.servlet.http.HttpServletRequest)
+2020-03-23 12:11:16.0056 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping-[Line:87]>Mapped "{[/create/chinese/use/query],methods=[POST || GET]}" onto public java.lang.String com.controller.ChineseCodeController.findChineseCodeUse(javax.servlet.http.HttpServletRequest)
+2020-03-23 12:11:16.0057 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping-[Line:87]>Mapped "{[/dal/closeGame],methods=[GET]}" onto public void com.controller.CloseServerController.getServerInfo(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws org.apache.http.client.ClientProtocolException,java.io.IOException
+2020-03-23 12:11:16.0058 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping-[Line:87]>Mapped "{[/count/numOfUses],methods=[POST || GET]}" onto public java.lang.String com.controller.CountCodeController.countBatch(javax.servlet.http.HttpServletRequest)
+2020-03-23 12:11:16.0059 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping-[Line:87]>Mapped "{[/file/expload],methods=[POST || GET]}" onto public java.lang.String com.controller.DownLoadController.expload(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException
+2020-03-23 12:11:16.0061 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping-[Line:87]>Mapped "{[/package/code/create],methods=[POST || GET]}" onto public java.lang.String com.controller.InvitationCodeController.createInvitation(javax.servlet.http.HttpServletRequest)
+2020-03-23 12:11:16.0061 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping-[Line:87]>Mapped "{[/package/code/query],methods=[POST || GET]}" onto public java.lang.String com.controller.InvitationCodeController.findInvitation(javax.servlet.http.HttpServletRequest)
+2020-03-23 12:11:16.0063 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping-[Line:87]>Mapped "{[/package/query],methods=[POST || GET]}" onto public java.lang.String com.controller.PackageInfoController.findPackage(javax.servlet.http.HttpServletRequest)
+2020-03-23 12:11:16.0064 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping-[Line:87]>Mapped "{[/package/find_all],methods=[POST || GET]}" onto public java.lang.String com.controller.PackageInfoController.findAllPackage(javax.servlet.http.HttpServletRequest)
+2020-03-23 12:11:16.0064 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping-[Line:87]>Mapped "{[/package/create],methods=[POST || GET]}" onto public java.lang.String com.controller.PackageInfoController.createPackage(javax.servlet.http.HttpServletRequest)
+2020-03-23 12:11:16.0065 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping-[Line:87]>Mapped "{[/package/update],methods=[POST || GET]}" onto public java.lang.String com.controller.PackageInfoController.modifyPackage(javax.servlet.http.HttpServletRequest)
+2020-03-23 12:11:16.0065 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping-[Line:87]>Mapped "{[/package/delete],methods=[POST || GET]}" onto public java.lang.String com.controller.PackageInfoController.deletePackage(javax.servlet.http.HttpServletRequest)
+2020-03-23 12:11:16.0066 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping-[Line:87]>Mapped "{[/package/use],methods=[POST || GET]}" onto public java.lang.String com.controller.UseGiftCodeController.useGiftCode(javax.servlet.http.HttpServletRequest) throws java.lang.Throwable
+2020-03-23 12:11:16.0069 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping-[Line:87]>Mapped "{[/v2/api-docs],methods=[GET]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String)
+2020-03-23 12:11:16.0073 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping-[Line:87]>Mapped "{[/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2020-03-23 12:11:16.0074 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping-[Line:87]>Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2020-03-23 12:11:16.0075 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping-[Line:87]>Mapped "{[/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2020-03-23 12:11:16.0080 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping-[Line:87]>Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-03-23 12:11:16.0081 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping-[Line:87]>Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-03-23 12:11:16.0389 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping-[Line:87]>Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-03-23 12:11:16.0726 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter-[Line:87]>Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@409c54f: startup date [Mon Mar 23 12:11:06 CST 2020]; root of context hierarchy
+2020-03-23 12:11:16.0800 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping-[Line:87]>Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-03-23 12:11:16.0800 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping-[Line:87]>Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-03-23 12:11:17.0557 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter-[Line:87]>Registering beans for JMX exposure on startup
+2020-03-23 12:11:17.0559 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter-[Line:87]>Bean with name 'statFilter' has been autodetected for JMX exposure
+2020-03-23 12:11:17.0559 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter-[Line:87]>Bean with name 'dataSource' has been autodetected for JMX exposure
+2020-03-23 12:11:17.0566 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter-[Line:87]>Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.spring.boot.autoconfigure:name=dataSource,type=DruidDataSourceWrapper]
+2020-03-23 12:11:17.0567 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter-[Line:87]>Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+2020-03-23 12:11:17.0577 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper-[Line:80]>Context refreshed
+2020-03-23 12:11:17.0599 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper-[Line:83]>Found {0} custom documentation plugin(s)
+2020-03-23 12:11:17.0608 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner-[Line:53]>Scanning for api listing references
+2020-03-23 12:11:17.0611 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method countBatch was count-code-controller
+2020-03-23 12:11:17.0613 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner-[Line:72]>Request mapping: countBatch belongs to groups: [[ResourceGroup{groupName='count-code-controller', position=0, controller=com.controller.CountCodeController}]] 
+2020-03-23 12:11:17.0614 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method createInvitation was chinese-code-controller
+2020-03-23 12:11:17.0614 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner-[Line:72]>Request mapping: createInvitation belongs to groups: [[ResourceGroup{groupName='chinese-code-controller', position=0, controller=com.controller.ChineseCodeController}]] 
+2020-03-23 12:11:17.0615 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method findPackage was chinese-code-controller
+2020-03-23 12:11:17.0615 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner-[Line:72]>Request mapping: findPackage belongs to groups: [[ResourceGroup{groupName='chinese-code-controller', position=0, controller=com.controller.ChineseCodeController}]] 
+2020-03-23 12:11:17.0615 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method findChineseCodeUse was chinese-code-controller
+2020-03-23 12:11:17.0615 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner-[Line:72]>Request mapping: findChineseCodeUse belongs to groups: [[ResourceGroup{groupName='chinese-code-controller', position=0, controller=com.controller.ChineseCodeController}]] 
+2020-03-23 12:11:17.0616 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method expload was down-load-controller
+2020-03-23 12:11:17.0616 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner-[Line:72]>Request mapping: expload belongs to groups: [[ResourceGroup{groupName='down-load-controller', position=0, controller=com.controller.DownLoadController}]] 
+2020-03-23 12:11:17.0616 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method createInvitation was invitation-code-controller
+2020-03-23 12:11:17.0616 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner-[Line:72]>Request mapping: createInvitation belongs to groups: [[ResourceGroup{groupName='invitation-code-controller', position=0, controller=com.controller.InvitationCodeController}]] 
+2020-03-23 12:11:17.0616 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method findInvitation was invitation-code-controller
+2020-03-23 12:11:17.0616 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner-[Line:72]>Request mapping: findInvitation belongs to groups: [[ResourceGroup{groupName='invitation-code-controller', position=0, controller=com.controller.InvitationCodeController}]] 
+2020-03-23 12:11:17.0617 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method createPackage was package-info-controller
+2020-03-23 12:11:17.0617 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner-[Line:72]>Request mapping: createPackage belongs to groups: [[ResourceGroup{groupName='package-info-controller', position=0, controller=com.controller.PackageInfoController}]] 
+2020-03-23 12:11:17.0617 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method deletePackage was package-info-controller
+2020-03-23 12:11:17.0617 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner-[Line:72]>Request mapping: deletePackage belongs to groups: [[ResourceGroup{groupName='package-info-controller', position=0, controller=com.controller.PackageInfoController}]] 
+2020-03-23 12:11:17.0618 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method findAllPackage was package-info-controller
+2020-03-23 12:11:17.0618 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner-[Line:72]>Request mapping: findAllPackage belongs to groups: [[ResourceGroup{groupName='package-info-controller', position=0, controller=com.controller.PackageInfoController}]] 
+2020-03-23 12:11:17.0618 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method findPackage was package-info-controller
+2020-03-23 12:11:17.0618 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner-[Line:72]>Request mapping: findPackage belongs to groups: [[ResourceGroup{groupName='package-info-controller', position=0, controller=com.controller.PackageInfoController}]] 
+2020-03-23 12:11:17.0618 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method modifyPackage was package-info-controller
+2020-03-23 12:11:17.0618 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner-[Line:72]>Request mapping: modifyPackage belongs to groups: [[ResourceGroup{groupName='package-info-controller', position=0, controller=com.controller.PackageInfoController}]] 
+2020-03-23 12:11:17.0619 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method useGiftCode was use-gift-code-controller
+2020-03-23 12:11:17.0619 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner-[Line:72]>Request mapping: useGiftCode belongs to groups: [[ResourceGroup{groupName='use-gift-code-controller', position=0, controller=com.controller.UseGiftCodeController}]] 
+2020-03-23 12:11:17.0622 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner-[Line:84]>Created resource listing Path: /default/invitation-code-controller Description: invitation-code-controller Position: 0
+2020-03-23 12:11:17.0623 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner-[Line:84]>Created resource listing Path: /default/down-load-controller Description: down-load-controller Position: 0
+2020-03-23 12:11:17.0623 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner-[Line:84]>Created resource listing Path: /default/count-code-controller Description: count-code-controller Position: 0
+2020-03-23 12:11:17.0623 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner-[Line:84]>Created resource listing Path: /default/use-gift-code-controller Description: use-gift-code-controller Position: 0
+2020-03-23 12:11:17.0624 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner-[Line:84]>Created resource listing Path: /default/chinese-code-controller Description: chinese-code-controller Position: 0
+2020-03-23 12:11:17.0624 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner-[Line:84]>Created resource listing Path: /default/package-info-controller Description: package-info-controller Position: 0
+2020-03-23 12:11:17.0660 [main] INFO  s.d.schema.ModelContextKeyGenerator-[Line:46]>Cache Key Generated: java.lang.String(true)
+2020-03-23 12:11:17.0660 [main] INFO  s.d.spring.web.caching.CachingAspect-[Line:79]>Caching aspect applied for cache models with key java.lang.String(true)
+2020-03-23 12:11:17.0670 [main] INFO  s.d.schema.ModelContextKeyGenerator-[Line:46]>Cache Key Generated: java.lang.String(true)
+2020-03-23 12:11:17.0670 [main] INFO  s.d.spring.web.caching.CachingAspect-[Line:79]>Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+2020-03-23 12:11:17.0676 [main] INFO  s.d.s.web.OperationsKeyGenerator-[Line:51]>Cache key generated: /create/chinese/code.com.controller.ChineseCodeController.createInvitation.DefaultGenericTypeNamingStrategy
+2020-03-23 12:11:17.0677 [main] INFO  s.d.spring.web.caching.CachingAspect-[Line:68]>Caching aspect applied for cache operations with key /create/chinese/code.com.controller.ChineseCodeController.createInvitation.DefaultGenericTypeNamingStrategy
+2020-03-23 12:11:17.0702 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method createInvitation was chinese-code-controller
+2020-03-23 12:11:17.0721 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method createInvitation was chinese-code-controller
+2020-03-23 12:11:17.0727 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method createInvitation was chinese-code-controller
+2020-03-23 12:11:17.0729 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method createInvitation was chinese-code-controller
+2020-03-23 12:11:17.0734 [main] INFO  s.d.schema.ModelContextKeyGenerator-[Line:46]>Cache Key Generated: java.lang.String(true)
+2020-03-23 12:11:17.0734 [main] INFO  s.d.spring.web.caching.CachingAspect-[Line:79]>Caching aspect applied for cache models with key java.lang.String(true)
+2020-03-23 12:11:17.0735 [main] INFO  s.d.schema.ModelContextKeyGenerator-[Line:46]>Cache Key Generated: java.lang.String(true)
+2020-03-23 12:11:17.0735 [main] INFO  s.d.spring.web.caching.CachingAspect-[Line:79]>Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+2020-03-23 12:11:17.0735 [main] INFO  s.d.s.web.OperationsKeyGenerator-[Line:51]>Cache key generated: /create/chinese/use/query.com.controller.ChineseCodeController.findChineseCodeUse.DefaultGenericTypeNamingStrategy
+2020-03-23 12:11:17.0735 [main] INFO  s.d.spring.web.caching.CachingAspect-[Line:68]>Caching aspect applied for cache operations with key /create/chinese/use/query.com.controller.ChineseCodeController.findChineseCodeUse.DefaultGenericTypeNamingStrategy
+2020-03-23 12:11:17.0736 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method findChineseCodeUse was chinese-code-controller
+2020-03-23 12:11:17.0737 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method findChineseCodeUse was chinese-code-controller
+2020-03-23 12:11:17.0738 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method findChineseCodeUse was chinese-code-controller
+2020-03-23 12:11:17.0739 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method findChineseCodeUse was chinese-code-controller
+2020-03-23 12:11:17.0740 [main] INFO  s.d.schema.ModelContextKeyGenerator-[Line:46]>Cache Key Generated: java.lang.String(true)
+2020-03-23 12:11:17.0741 [main] INFO  s.d.spring.web.caching.CachingAspect-[Line:79]>Caching aspect applied for cache models with key java.lang.String(true)
+2020-03-23 12:11:17.0741 [main] INFO  s.d.schema.ModelContextKeyGenerator-[Line:46]>Cache Key Generated: java.lang.String(true)
+2020-03-23 12:11:17.0741 [main] INFO  s.d.spring.web.caching.CachingAspect-[Line:79]>Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+2020-03-23 12:11:17.0741 [main] INFO  s.d.s.web.OperationsKeyGenerator-[Line:51]>Cache key generated: /create/chinese/query.com.controller.ChineseCodeController.findPackage.DefaultGenericTypeNamingStrategy
+2020-03-23 12:11:17.0741 [main] INFO  s.d.spring.web.caching.CachingAspect-[Line:68]>Caching aspect applied for cache operations with key /create/chinese/query.com.controller.ChineseCodeController.findPackage.DefaultGenericTypeNamingStrategy
+2020-03-23 12:11:17.0742 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method findPackage was chinese-code-controller
+2020-03-23 12:11:17.0743 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method findPackage was chinese-code-controller
+2020-03-23 12:11:17.0744 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method findPackage was chinese-code-controller
+2020-03-23 12:11:17.0745 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method findPackage was chinese-code-controller
+2020-03-23 12:11:17.0750 [main] INFO  s.d.schema.ModelContextKeyGenerator-[Line:46]>Cache Key Generated: java.lang.String(true)
+2020-03-23 12:11:17.0750 [main] INFO  s.d.spring.web.caching.CachingAspect-[Line:79]>Caching aspect applied for cache models with key java.lang.String(true)
+2020-03-23 12:11:17.0750 [main] INFO  s.d.schema.ModelContextKeyGenerator-[Line:46]>Cache Key Generated: java.lang.String(true)
+2020-03-23 12:11:17.0750 [main] INFO  s.d.spring.web.caching.CachingAspect-[Line:79]>Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+2020-03-23 12:11:17.0751 [main] INFO  s.d.s.web.OperationsKeyGenerator-[Line:51]>Cache key generated: /count/numOfUses.com.controller.CountCodeController.countBatch.DefaultGenericTypeNamingStrategy
+2020-03-23 12:11:17.0751 [main] INFO  s.d.spring.web.caching.CachingAspect-[Line:68]>Caching aspect applied for cache operations with key /count/numOfUses.com.controller.CountCodeController.countBatch.DefaultGenericTypeNamingStrategy
+2020-03-23 12:11:17.0751 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method countBatch was count-code-controller
+2020-03-23 12:11:17.0752 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method countBatch was count-code-controller
+2020-03-23 12:11:17.0753 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method countBatch was count-code-controller
+2020-03-23 12:11:17.0754 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method countBatch was count-code-controller
+2020-03-23 12:11:17.0756 [main] INFO  s.d.schema.ModelContextKeyGenerator-[Line:46]>Cache Key Generated: java.lang.String(true)
+2020-03-23 12:11:17.0756 [main] INFO  s.d.spring.web.caching.CachingAspect-[Line:79]>Caching aspect applied for cache models with key java.lang.String(true)
+2020-03-23 12:11:17.0756 [main] INFO  s.d.schema.ModelContextKeyGenerator-[Line:46]>Cache Key Generated: java.lang.String(true)
+2020-03-23 12:11:17.0757 [main] INFO  s.d.spring.web.caching.CachingAspect-[Line:79]>Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+2020-03-23 12:11:17.0757 [main] INFO  s.d.s.web.OperationsKeyGenerator-[Line:51]>Cache key generated: /file/expload.com.controller.DownLoadController.expload.DefaultGenericTypeNamingStrategy
+2020-03-23 12:11:17.0757 [main] INFO  s.d.spring.web.caching.CachingAspect-[Line:68]>Caching aspect applied for cache operations with key /file/expload.com.controller.DownLoadController.expload.DefaultGenericTypeNamingStrategy
+2020-03-23 12:11:17.0758 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method expload was down-load-controller
+2020-03-23 12:11:17.0760 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method expload was down-load-controller
+2020-03-23 12:11:17.0761 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method expload was down-load-controller
+2020-03-23 12:11:17.0763 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method expload was down-load-controller
+2020-03-23 12:11:17.0764 [main] INFO  s.d.schema.ModelContextKeyGenerator-[Line:46]>Cache Key Generated: java.lang.String(true)
+2020-03-23 12:11:17.0765 [main] INFO  s.d.spring.web.caching.CachingAspect-[Line:79]>Caching aspect applied for cache models with key java.lang.String(true)
+2020-03-23 12:11:17.0765 [main] INFO  s.d.schema.ModelContextKeyGenerator-[Line:46]>Cache Key Generated: java.lang.String(true)
+2020-03-23 12:11:17.0765 [main] INFO  s.d.spring.web.caching.CachingAspect-[Line:79]>Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+2020-03-23 12:11:17.0765 [main] INFO  s.d.s.web.OperationsKeyGenerator-[Line:51]>Cache key generated: /package/code/create.com.controller.InvitationCodeController.createInvitation.DefaultGenericTypeNamingStrategy
+2020-03-23 12:11:17.0765 [main] INFO  s.d.spring.web.caching.CachingAspect-[Line:68]>Caching aspect applied for cache operations with key /package/code/create.com.controller.InvitationCodeController.createInvitation.DefaultGenericTypeNamingStrategy
+2020-03-23 12:11:17.0766 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method createInvitation was invitation-code-controller
+2020-03-23 12:11:17.0767 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method createInvitation was invitation-code-controller
+2020-03-23 12:11:17.0767 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator-[Line:40]>Generating unique operation named: createInvitationUsingPOST_1
+2020-03-23 12:11:17.0768 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method createInvitation was invitation-code-controller
+2020-03-23 12:11:17.0769 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method createInvitation was invitation-code-controller
+2020-03-23 12:11:17.0770 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator-[Line:40]>Generating unique operation named: createInvitationUsingGET_1
+2020-03-23 12:11:17.0771 [main] INFO  s.d.schema.ModelContextKeyGenerator-[Line:46]>Cache Key Generated: java.lang.String(true)
+2020-03-23 12:11:17.0771 [main] INFO  s.d.spring.web.caching.CachingAspect-[Line:79]>Caching aspect applied for cache models with key java.lang.String(true)
+2020-03-23 12:11:17.0771 [main] INFO  s.d.schema.ModelContextKeyGenerator-[Line:46]>Cache Key Generated: java.lang.String(true)
+2020-03-23 12:11:17.0771 [main] INFO  s.d.spring.web.caching.CachingAspect-[Line:79]>Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+2020-03-23 12:11:17.0771 [main] INFO  s.d.s.web.OperationsKeyGenerator-[Line:51]>Cache key generated: /package/code/query.com.controller.InvitationCodeController.findInvitation.DefaultGenericTypeNamingStrategy
+2020-03-23 12:11:17.0772 [main] INFO  s.d.spring.web.caching.CachingAspect-[Line:68]>Caching aspect applied for cache operations with key /package/code/query.com.controller.InvitationCodeController.findInvitation.DefaultGenericTypeNamingStrategy
+2020-03-23 12:11:17.0772 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method findInvitation was invitation-code-controller
+2020-03-23 12:11:17.0774 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method findInvitation was invitation-code-controller
+2020-03-23 12:11:17.0775 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method findInvitation was invitation-code-controller
+2020-03-23 12:11:17.0776 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method findInvitation was invitation-code-controller
+2020-03-23 12:11:17.0778 [main] INFO  s.d.schema.ModelContextKeyGenerator-[Line:46]>Cache Key Generated: java.lang.String(true)
+2020-03-23 12:11:17.0778 [main] INFO  s.d.spring.web.caching.CachingAspect-[Line:79]>Caching aspect applied for cache models with key java.lang.String(true)
+2020-03-23 12:11:17.0779 [main] INFO  s.d.schema.ModelContextKeyGenerator-[Line:46]>Cache Key Generated: java.lang.String(true)
+2020-03-23 12:11:17.0780 [main] INFO  s.d.spring.web.caching.CachingAspect-[Line:79]>Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+2020-03-23 12:11:17.0780 [main] INFO  s.d.s.web.OperationsKeyGenerator-[Line:51]>Cache key generated: /package/create.com.controller.PackageInfoController.createPackage.DefaultGenericTypeNamingStrategy
+2020-03-23 12:11:17.0780 [main] INFO  s.d.spring.web.caching.CachingAspect-[Line:68]>Caching aspect applied for cache operations with key /package/create.com.controller.PackageInfoController.createPackage.DefaultGenericTypeNamingStrategy
+2020-03-23 12:11:17.0780 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method createPackage was package-info-controller
+2020-03-23 12:11:17.0781 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method createPackage was package-info-controller
+2020-03-23 12:11:17.0782 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method createPackage was package-info-controller
+2020-03-23 12:11:17.0782 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method createPackage was package-info-controller
+2020-03-23 12:11:17.0784 [main] INFO  s.d.schema.ModelContextKeyGenerator-[Line:46]>Cache Key Generated: java.lang.String(true)
+2020-03-23 12:11:17.0785 [main] INFO  s.d.spring.web.caching.CachingAspect-[Line:79]>Caching aspect applied for cache models with key java.lang.String(true)
+2020-03-23 12:11:17.0785 [main] INFO  s.d.schema.ModelContextKeyGenerator-[Line:46]>Cache Key Generated: java.lang.String(true)
+2020-03-23 12:11:17.0785 [main] INFO  s.d.spring.web.caching.CachingAspect-[Line:79]>Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+2020-03-23 12:11:17.0790 [main] INFO  s.d.s.web.OperationsKeyGenerator-[Line:51]>Cache key generated: /package/delete.com.controller.PackageInfoController.deletePackage.DefaultGenericTypeNamingStrategy
+2020-03-23 12:11:17.0790 [main] INFO  s.d.spring.web.caching.CachingAspect-[Line:68]>Caching aspect applied for cache operations with key /package/delete.com.controller.PackageInfoController.deletePackage.DefaultGenericTypeNamingStrategy
+2020-03-23 12:11:17.0791 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method deletePackage was package-info-controller
+2020-03-23 12:11:17.0792 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method deletePackage was package-info-controller
+2020-03-23 12:11:17.0792 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method deletePackage was package-info-controller
+2020-03-23 12:11:17.0793 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method deletePackage was package-info-controller
+2020-03-23 12:11:17.0794 [main] INFO  s.d.schema.ModelContextKeyGenerator-[Line:46]>Cache Key Generated: java.lang.String(true)
+2020-03-23 12:11:17.0794 [main] INFO  s.d.spring.web.caching.CachingAspect-[Line:79]>Caching aspect applied for cache models with key java.lang.String(true)
+2020-03-23 12:11:17.0795 [main] INFO  s.d.schema.ModelContextKeyGenerator-[Line:46]>Cache Key Generated: java.lang.String(true)
+2020-03-23 12:11:17.0795 [main] INFO  s.d.spring.web.caching.CachingAspect-[Line:79]>Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+2020-03-23 12:11:17.0795 [main] INFO  s.d.s.web.OperationsKeyGenerator-[Line:51]>Cache key generated: /package/find_all.com.controller.PackageInfoController.findAllPackage.DefaultGenericTypeNamingStrategy
+2020-03-23 12:11:17.0795 [main] INFO  s.d.spring.web.caching.CachingAspect-[Line:68]>Caching aspect applied for cache operations with key /package/find_all.com.controller.PackageInfoController.findAllPackage.DefaultGenericTypeNamingStrategy
+2020-03-23 12:11:17.0796 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method findAllPackage was package-info-controller
+2020-03-23 12:11:17.0796 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method findAllPackage was package-info-controller
+2020-03-23 12:11:17.0797 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method findAllPackage was package-info-controller
+2020-03-23 12:11:17.0798 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method findAllPackage was package-info-controller
+2020-03-23 12:11:17.0798 [main] INFO  s.d.schema.ModelContextKeyGenerator-[Line:46]>Cache Key Generated: java.lang.String(true)
+2020-03-23 12:11:17.0799 [main] INFO  s.d.spring.web.caching.CachingAspect-[Line:79]>Caching aspect applied for cache models with key java.lang.String(true)
+2020-03-23 12:11:17.0799 [main] INFO  s.d.schema.ModelContextKeyGenerator-[Line:46]>Cache Key Generated: java.lang.String(true)
+2020-03-23 12:11:17.0799 [main] INFO  s.d.spring.web.caching.CachingAspect-[Line:79]>Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+2020-03-23 12:11:17.0799 [main] INFO  s.d.s.web.OperationsKeyGenerator-[Line:51]>Cache key generated: /package/query.com.controller.PackageInfoController.findPackage.DefaultGenericTypeNamingStrategy
+2020-03-23 12:11:17.0799 [main] INFO  s.d.spring.web.caching.CachingAspect-[Line:68]>Caching aspect applied for cache operations with key /package/query.com.controller.PackageInfoController.findPackage.DefaultGenericTypeNamingStrategy
+2020-03-23 12:11:17.0800 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method findPackage was package-info-controller
+2020-03-23 12:11:17.0800 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method findPackage was package-info-controller
+2020-03-23 12:11:17.0801 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator-[Line:40]>Generating unique operation named: findPackageUsingPOST_1
+2020-03-23 12:11:17.0802 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method findPackage was package-info-controller
+2020-03-23 12:11:17.0803 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method findPackage was package-info-controller
+2020-03-23 12:11:17.0803 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator-[Line:40]>Generating unique operation named: findPackageUsingGET_1
+2020-03-23 12:11:17.0805 [main] INFO  s.d.schema.ModelContextKeyGenerator-[Line:46]>Cache Key Generated: java.lang.String(true)
+2020-03-23 12:11:17.0805 [main] INFO  s.d.spring.web.caching.CachingAspect-[Line:79]>Caching aspect applied for cache models with key java.lang.String(true)
+2020-03-23 12:11:17.0805 [main] INFO  s.d.schema.ModelContextKeyGenerator-[Line:46]>Cache Key Generated: java.lang.String(true)
+2020-03-23 12:11:17.0805 [main] INFO  s.d.spring.web.caching.CachingAspect-[Line:79]>Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+2020-03-23 12:11:17.0805 [main] INFO  s.d.s.web.OperationsKeyGenerator-[Line:51]>Cache key generated: /package/update.com.controller.PackageInfoController.modifyPackage.DefaultGenericTypeNamingStrategy
+2020-03-23 12:11:17.0805 [main] INFO  s.d.spring.web.caching.CachingAspect-[Line:68]>Caching aspect applied for cache operations with key /package/update.com.controller.PackageInfoController.modifyPackage.DefaultGenericTypeNamingStrategy
+2020-03-23 12:11:17.0806 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method modifyPackage was package-info-controller
+2020-03-23 12:11:17.0807 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method modifyPackage was package-info-controller
+2020-03-23 12:11:17.0808 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method modifyPackage was package-info-controller
+2020-03-23 12:11:17.0809 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method modifyPackage was package-info-controller
+2020-03-23 12:11:17.0811 [main] INFO  s.d.schema.ModelContextKeyGenerator-[Line:46]>Cache Key Generated: java.lang.String(true)
+2020-03-23 12:11:17.0812 [main] INFO  s.d.spring.web.caching.CachingAspect-[Line:79]>Caching aspect applied for cache models with key java.lang.String(true)
+2020-03-23 12:11:17.0812 [main] INFO  s.d.schema.ModelContextKeyGenerator-[Line:46]>Cache Key Generated: java.lang.String(true)
+2020-03-23 12:11:17.0812 [main] INFO  s.d.spring.web.caching.CachingAspect-[Line:79]>Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+2020-03-23 12:11:17.0812 [main] INFO  s.d.s.web.OperationsKeyGenerator-[Line:51]>Cache key generated: /package/use.com.controller.UseGiftCodeController.useGiftCode.DefaultGenericTypeNamingStrategy
+2020-03-23 12:11:17.0812 [main] INFO  s.d.spring.web.caching.CachingAspect-[Line:68]>Caching aspect applied for cache operations with key /package/use.com.controller.UseGiftCodeController.useGiftCode.DefaultGenericTypeNamingStrategy
+2020-03-23 12:11:17.0813 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method useGiftCode was use-gift-code-controller
+2020-03-23 12:11:17.0815 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method useGiftCode was use-gift-code-controller
+2020-03-23 12:11:17.0816 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method useGiftCode was use-gift-code-controller
+2020-03-23 12:11:17.0817 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method useGiftCode was use-gift-code-controller
+2020-03-23 12:11:17.0842 [main] INFO  o.a.coyote.http11.Http11NioProtocol-[Line:180]>Starting ProtocolHandler ["http-nio-9898"]
+2020-03-23 12:11:18.0291 [main] INFO  o.a.tomcat.util.net.NioSelectorPool-[Line:180]>Using a shared selector for servlet write/read
+2020-03-23 12:11:18.0438 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer-[Line:87]>Tomcat started on port(s): 9898 (http) with context path ''
+2020-03-23 12:11:18.0441 [main] INFO  com.Application-[Line:87]>Started Application in 12.059 seconds (JVM running for 12.737)
+2020-03-23 12:11:19.0122 [main] INFO  o.h.h.i.QueryTranslatorFactoryInitiator-[Line:47]>HHH000397: Using ASTQueryTranslatorFactory
+2020-03-23 12:11:20.0104 [main] INFO  com.Application-[Line:24]>server start success,Mon Mar 23 12:11:20 CST 2020
+2020-03-23 12:11:58.0653 [http-nio-9898-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]-[Line:180]>Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-03-23 12:11:58.0654 [http-nio-9898-exec-1] INFO  o.s.web.servlet.DispatcherServlet-[Line:87]>FrameworkServlet 'dispatcherServlet': initialization started
+2020-03-23 12:11:58.0687 [http-nio-9898-exec-1] INFO  o.s.web.servlet.DispatcherServlet-[Line:87]>FrameworkServlet 'dispatcherServlet': initialization completed in 33 ms
+2020-03-23 12:11:58.0943 [http-nio-9898-exec-1] INFO  CsvUtils.class-[Line:93]>生成csv成功
+2020-03-23 12:12:58.0662 [main] INFO  com.Application-[Line:87]>Starting Application on zjw with PID 10076 (E:\Dal\server\GiftCodeServer\target\classes started by Administrator in E:\Dal\server\GiftCodeServer)
+2020-03-23 12:12:58.0667 [main] INFO  com.Application-[Line:87]>No active profile set, falling back to default profiles: default
+2020-03-23 12:12:58.0729 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext-[Line:87]>Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@59d4cd39: startup date [Mon Mar 23 12:12:58 CST 2020]; root of context hierarchy
+2020-03-23 12:13:01.0716 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-[Line:87]>Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d3aab835] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-23 12:13:01.0886 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-[Line:87]>Bean 'org.springframework.cache.annotation.ProxyCachingConfiguration' of type [org.springframework.cache.annotation.ProxyCachingConfiguration$$EnhancerBySpringCGLIB$$1cbcee53] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-23 12:13:02.0413 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer-[Line:87]>Tomcat initialized with port(s): 9898 (http)
+2020-03-23 12:13:02.0429 [main] INFO  o.a.coyote.http11.Http11NioProtocol-[Line:180]>Initializing ProtocolHandler ["http-nio-9898"]
+2020-03-23 12:13:02.0445 [main] INFO  o.a.catalina.core.StandardService-[Line:180]>Starting service [Tomcat]
+2020-03-23 12:13:02.0446 [main] INFO  o.a.catalina.core.StandardEngine-[Line:180]>Starting Servlet Engine: Apache Tomcat/8.5.31
+2020-03-23 12:13:02.0459 [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener-[Line:180]>The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_25\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk1.8.0_25\jre\bin;C:/Program Files/Java/jre1.8.0_25/bin/server;C:/Program Files/Java/jre1.8.0_25/bin;C:/Program Files/Java/jre1.8.0_25/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\jdk1.8.0_25\bin;E:\mysql\mysql-5.7.10-winx64\bin;E:\Apache\apache-maven-3.6.3\bin\;C:\Windows\system32;;.]
+2020-03-23 12:13:02.0592 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]-[Line:180]>Initializing Spring embedded WebApplicationContext
+2020-03-23 12:13:02.0592 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader-[Line:87]>Root WebApplicationContext: initialization completed in 3863 ms
+2020-03-23 12:13:02.0808 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean-[Line:87]>Servlet dispatcherServlet mapped to [/]
+2020-03-23 12:13:02.0810 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean-[Line:87]>Servlet statViewServlet mapped to [/druid/*]
+2020-03-23 12:13:02.0814 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean-[Line:87]>Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-03-23 12:13:02.0815 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean-[Line:87]>Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-03-23 12:13:02.0815 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean-[Line:87]>Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-03-23 12:13:02.0815 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean-[Line:87]>Mapping filter: 'requestContextFilter' to: [/*]
+2020-03-23 12:13:02.0815 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean-[Line:87]>Mapping filter: 'webStatFilter' to urls: [/*]
+2020-03-23 12:13:02.0863 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure-[Line:56]>Init DruidDataSource
+2020-03-23 12:13:03.0064 [main] INFO  c.alibaba.druid.pool.DruidDataSource-[Line:928]>{dataSource-1} inited
+2020-03-23 12:13:03.0500 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean-[Line:87]>Building JPA container EntityManagerFactory for persistence unit 'default'
+2020-03-23 12:13:03.0519 [main] INFO  o.h.jpa.internal.util.LogHelper-[Line:31]>HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-03-23 12:13:03.0606 [main] INFO  org.hibernate.Version-[Line:45]>HHH000412: Hibernate Core {5.2.17.Final}
+2020-03-23 12:13:03.0608 [main] INFO  org.hibernate.cfg.Environment-[Line:213]>HHH000206: hibernate.properties not found
+2020-03-23 12:13:03.0659 [main] INFO  o.h.annotations.common.Version-[Line:66]>HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-03-23 12:13:03.0853 [main] INFO  org.hibernate.dialect.Dialect-[Line:157]>HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-03-23 12:13:04.0078 [main] WARN  org.hibernate.mapping.RootClass-[Line:285]>HHH000038: Composite-id class does not override equals(): com.enity.chinese.ChineseUse
+2020-03-23 12:13:04.0078 [main] WARN  org.hibernate.mapping.RootClass-[Line:288]>HHH000039: Composite-id class does not override hashCode(): com.enity.chinese.ChineseUse
+2020-03-23 12:13:04.0079 [main] WARN  org.hibernate.mapping.RootClass-[Line:285]>HHH000038: Composite-id class does not override equals(): com.enity.forever.ForeverUse
+2020-03-23 12:13:04.0079 [main] WARN  org.hibernate.mapping.RootClass-[Line:288]>HHH000039: Composite-id class does not override hashCode(): com.enity.forever.ForeverUse
+2020-03-23 12:13:04.0452 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean-[Line:87]>Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-23 12:13:05.0803 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration-[Line:87]>spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-23 12:13:05.0887 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping-[Line:87]>Mapped "{[/create/chinese/query],methods=[POST || GET]}" onto public java.lang.String com.controller.ChineseCodeController.findPackage(javax.servlet.http.HttpServletRequest)
+2020-03-23 12:13:05.0888 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping-[Line:87]>Mapped "{[/create/chinese/code],methods=[POST || GET]}" onto public java.lang.String com.controller.ChineseCodeController.createInvitation(javax.servlet.http.HttpServletRequest)
+2020-03-23 12:13:05.0889 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping-[Line:87]>Mapped "{[/create/chinese/use/query],methods=[POST || GET]}" onto public java.lang.String com.controller.ChineseCodeController.findChineseCodeUse(javax.servlet.http.HttpServletRequest)
+2020-03-23 12:13:05.0890 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping-[Line:87]>Mapped "{[/dal/closeGame],methods=[GET]}" onto public void com.controller.CloseServerController.getServerInfo(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws org.apache.http.client.ClientProtocolException,java.io.IOException
+2020-03-23 12:13:05.0890 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping-[Line:87]>Mapped "{[/count/numOfUses],methods=[POST || GET]}" onto public java.lang.String com.controller.CountCodeController.countBatch(javax.servlet.http.HttpServletRequest)
+2020-03-23 12:13:05.0891 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping-[Line:87]>Mapped "{[/file/expload],methods=[POST || GET]}" onto public java.lang.String com.controller.DownLoadController.expload(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException
+2020-03-23 12:13:05.0893 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping-[Line:87]>Mapped "{[/package/code/create],methods=[POST || GET]}" onto public java.lang.String com.controller.InvitationCodeController.createInvitation(javax.servlet.http.HttpServletRequest)
+2020-03-23 12:13:05.0893 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping-[Line:87]>Mapped "{[/package/code/query],methods=[POST || GET]}" onto public java.lang.String com.controller.InvitationCodeController.findInvitation(javax.servlet.http.HttpServletRequest)
+2020-03-23 12:13:05.0895 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping-[Line:87]>Mapped "{[/package/query],methods=[POST || GET]}" onto public java.lang.String com.controller.PackageInfoController.findPackage(javax.servlet.http.HttpServletRequest)
+2020-03-23 12:13:05.0895 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping-[Line:87]>Mapped "{[/package/create],methods=[POST || GET]}" onto public java.lang.String com.controller.PackageInfoController.createPackage(javax.servlet.http.HttpServletRequest)
+2020-03-23 12:13:05.0895 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping-[Line:87]>Mapped "{[/package/update],methods=[POST || GET]}" onto public java.lang.String com.controller.PackageInfoController.modifyPackage(javax.servlet.http.HttpServletRequest)
+2020-03-23 12:13:05.0896 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping-[Line:87]>Mapped "{[/package/find_all],methods=[POST || GET]}" onto public java.lang.String com.controller.PackageInfoController.findAllPackage(javax.servlet.http.HttpServletRequest)
+2020-03-23 12:13:05.0896 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping-[Line:87]>Mapped "{[/package/delete],methods=[POST || GET]}" onto public java.lang.String com.controller.PackageInfoController.deletePackage(javax.servlet.http.HttpServletRequest)
+2020-03-23 12:13:05.0897 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping-[Line:87]>Mapped "{[/package/use],methods=[POST || GET]}" onto public java.lang.String com.controller.UseGiftCodeController.useGiftCode(javax.servlet.http.HttpServletRequest) throws java.lang.Throwable
+2020-03-23 12:13:05.0898 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping-[Line:87]>Mapped "{[/v2/api-docs],methods=[GET]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String)
+2020-03-23 12:13:05.0902 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping-[Line:87]>Mapped "{[/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2020-03-23 12:13:05.0903 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping-[Line:87]>Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2020-03-23 12:13:05.0904 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping-[Line:87]>Mapped "{[/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2020-03-23 12:13:05.0908 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping-[Line:87]>Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-03-23 12:13:05.0909 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping-[Line:87]>Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-03-23 12:13:06.0175 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping-[Line:87]>Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-03-23 12:13:06.0430 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter-[Line:87]>Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@59d4cd39: startup date [Mon Mar 23 12:12:58 CST 2020]; root of context hierarchy
+2020-03-23 12:13:06.0506 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping-[Line:87]>Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-03-23 12:13:06.0507 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping-[Line:87]>Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-03-23 12:13:07.0190 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter-[Line:87]>Registering beans for JMX exposure on startup
+2020-03-23 12:13:07.0191 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter-[Line:87]>Bean with name 'statFilter' has been autodetected for JMX exposure
+2020-03-23 12:13:07.0193 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter-[Line:87]>Bean with name 'dataSource' has been autodetected for JMX exposure
+2020-03-23 12:13:07.0204 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter-[Line:87]>Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.spring.boot.autoconfigure:name=dataSource,type=DruidDataSourceWrapper]
+2020-03-23 12:13:07.0206 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter-[Line:87]>Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+2020-03-23 12:13:07.0216 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper-[Line:80]>Context refreshed
+2020-03-23 12:13:07.0238 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper-[Line:83]>Found {0} custom documentation plugin(s)
+2020-03-23 12:13:07.0248 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner-[Line:53]>Scanning for api listing references
+2020-03-23 12:13:07.0252 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method countBatch was count-code-controller
+2020-03-23 12:13:07.0255 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner-[Line:72]>Request mapping: countBatch belongs to groups: [[ResourceGroup{groupName='count-code-controller', position=0, controller=com.controller.CountCodeController}]] 
+2020-03-23 12:13:07.0256 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method createInvitation was chinese-code-controller
+2020-03-23 12:13:07.0256 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner-[Line:72]>Request mapping: createInvitation belongs to groups: [[ResourceGroup{groupName='chinese-code-controller', position=0, controller=com.controller.ChineseCodeController}]] 
+2020-03-23 12:13:07.0256 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method findPackage was chinese-code-controller
+2020-03-23 12:13:07.0256 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner-[Line:72]>Request mapping: findPackage belongs to groups: [[ResourceGroup{groupName='chinese-code-controller', position=0, controller=com.controller.ChineseCodeController}]] 
+2020-03-23 12:13:07.0257 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method findChineseCodeUse was chinese-code-controller
+2020-03-23 12:13:07.0257 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner-[Line:72]>Request mapping: findChineseCodeUse belongs to groups: [[ResourceGroup{groupName='chinese-code-controller', position=0, controller=com.controller.ChineseCodeController}]] 
+2020-03-23 12:13:07.0257 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method expload was down-load-controller
+2020-03-23 12:13:07.0257 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner-[Line:72]>Request mapping: expload belongs to groups: [[ResourceGroup{groupName='down-load-controller', position=0, controller=com.controller.DownLoadController}]] 
+2020-03-23 12:13:07.0257 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method createInvitation was invitation-code-controller
+2020-03-23 12:13:07.0258 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner-[Line:72]>Request mapping: createInvitation belongs to groups: [[ResourceGroup{groupName='invitation-code-controller', position=0, controller=com.controller.InvitationCodeController}]] 
+2020-03-23 12:13:07.0258 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method findInvitation was invitation-code-controller
+2020-03-23 12:13:07.0258 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner-[Line:72]>Request mapping: findInvitation belongs to groups: [[ResourceGroup{groupName='invitation-code-controller', position=0, controller=com.controller.InvitationCodeController}]] 
+2020-03-23 12:13:07.0258 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method createPackage was package-info-controller
+2020-03-23 12:13:07.0258 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner-[Line:72]>Request mapping: createPackage belongs to groups: [[ResourceGroup{groupName='package-info-controller', position=0, controller=com.controller.PackageInfoController}]] 
+2020-03-23 12:13:07.0259 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method deletePackage was package-info-controller
+2020-03-23 12:13:07.0259 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner-[Line:72]>Request mapping: deletePackage belongs to groups: [[ResourceGroup{groupName='package-info-controller', position=0, controller=com.controller.PackageInfoController}]] 
+2020-03-23 12:13:07.0259 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method findAllPackage was package-info-controller
+2020-03-23 12:13:07.0259 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner-[Line:72]>Request mapping: findAllPackage belongs to groups: [[ResourceGroup{groupName='package-info-controller', position=0, controller=com.controller.PackageInfoController}]] 
+2020-03-23 12:13:07.0259 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method findPackage was package-info-controller
+2020-03-23 12:13:07.0260 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner-[Line:72]>Request mapping: findPackage belongs to groups: [[ResourceGroup{groupName='package-info-controller', position=0, controller=com.controller.PackageInfoController}]] 
+2020-03-23 12:13:07.0260 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method modifyPackage was package-info-controller
+2020-03-23 12:13:07.0260 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner-[Line:72]>Request mapping: modifyPackage belongs to groups: [[ResourceGroup{groupName='package-info-controller', position=0, controller=com.controller.PackageInfoController}]] 
+2020-03-23 12:13:07.0260 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method useGiftCode was use-gift-code-controller
+2020-03-23 12:13:07.0260 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner-[Line:72]>Request mapping: useGiftCode belongs to groups: [[ResourceGroup{groupName='use-gift-code-controller', position=0, controller=com.controller.UseGiftCodeController}]] 
+2020-03-23 12:13:07.0264 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner-[Line:84]>Created resource listing Path: /default/chinese-code-controller Description: chinese-code-controller Position: 0
+2020-03-23 12:13:07.0265 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner-[Line:84]>Created resource listing Path: /default/invitation-code-controller Description: invitation-code-controller Position: 0
+2020-03-23 12:13:07.0265 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner-[Line:84]>Created resource listing Path: /default/use-gift-code-controller Description: use-gift-code-controller Position: 0
+2020-03-23 12:13:07.0265 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner-[Line:84]>Created resource listing Path: /default/down-load-controller Description: down-load-controller Position: 0
+2020-03-23 12:13:07.0265 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner-[Line:84]>Created resource listing Path: /default/count-code-controller Description: count-code-controller Position: 0
+2020-03-23 12:13:07.0266 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner-[Line:84]>Created resource listing Path: /default/package-info-controller Description: package-info-controller Position: 0
+2020-03-23 12:13:07.0284 [main] INFO  s.d.schema.ModelContextKeyGenerator-[Line:46]>Cache Key Generated: java.lang.String(true)
+2020-03-23 12:13:07.0284 [main] INFO  s.d.spring.web.caching.CachingAspect-[Line:79]>Caching aspect applied for cache models with key java.lang.String(true)
+2020-03-23 12:13:07.0291 [main] INFO  s.d.schema.ModelContextKeyGenerator-[Line:46]>Cache Key Generated: java.lang.String(true)
+2020-03-23 12:13:07.0291 [main] INFO  s.d.spring.web.caching.CachingAspect-[Line:79]>Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+2020-03-23 12:13:07.0298 [main] INFO  s.d.s.web.OperationsKeyGenerator-[Line:51]>Cache key generated: /create/chinese/code.com.controller.ChineseCodeController.createInvitation.DefaultGenericTypeNamingStrategy
+2020-03-23 12:13:07.0298 [main] INFO  s.d.spring.web.caching.CachingAspect-[Line:68]>Caching aspect applied for cache operations with key /create/chinese/code.com.controller.ChineseCodeController.createInvitation.DefaultGenericTypeNamingStrategy
+2020-03-23 12:13:07.0311 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method createInvitation was chinese-code-controller
+2020-03-23 12:13:07.0329 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method createInvitation was chinese-code-controller
+2020-03-23 12:13:07.0335 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method createInvitation was chinese-code-controller
+2020-03-23 12:13:07.0336 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method createInvitation was chinese-code-controller
+2020-03-23 12:13:07.0346 [main] INFO  s.d.schema.ModelContextKeyGenerator-[Line:46]>Cache Key Generated: java.lang.String(true)
+2020-03-23 12:13:07.0346 [main] INFO  s.d.spring.web.caching.CachingAspect-[Line:79]>Caching aspect applied for cache models with key java.lang.String(true)
+2020-03-23 12:13:07.0346 [main] INFO  s.d.schema.ModelContextKeyGenerator-[Line:46]>Cache Key Generated: java.lang.String(true)
+2020-03-23 12:13:07.0347 [main] INFO  s.d.spring.web.caching.CachingAspect-[Line:79]>Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+2020-03-23 12:13:07.0347 [main] INFO  s.d.s.web.OperationsKeyGenerator-[Line:51]>Cache key generated: /create/chinese/use/query.com.controller.ChineseCodeController.findChineseCodeUse.DefaultGenericTypeNamingStrategy
+2020-03-23 12:13:07.0347 [main] INFO  s.d.spring.web.caching.CachingAspect-[Line:68]>Caching aspect applied for cache operations with key /create/chinese/use/query.com.controller.ChineseCodeController.findChineseCodeUse.DefaultGenericTypeNamingStrategy
+2020-03-23 12:13:07.0353 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method findChineseCodeUse was chinese-code-controller
+2020-03-23 12:13:07.0354 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method findChineseCodeUse was chinese-code-controller
+2020-03-23 12:13:07.0355 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method findChineseCodeUse was chinese-code-controller
+2020-03-23 12:13:07.0356 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method findChineseCodeUse was chinese-code-controller
+2020-03-23 12:13:07.0357 [main] INFO  s.d.schema.ModelContextKeyGenerator-[Line:46]>Cache Key Generated: java.lang.String(true)
+2020-03-23 12:13:07.0357 [main] INFO  s.d.spring.web.caching.CachingAspect-[Line:79]>Caching aspect applied for cache models with key java.lang.String(true)
+2020-03-23 12:13:07.0357 [main] INFO  s.d.schema.ModelContextKeyGenerator-[Line:46]>Cache Key Generated: java.lang.String(true)
+2020-03-23 12:13:07.0358 [main] INFO  s.d.spring.web.caching.CachingAspect-[Line:79]>Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+2020-03-23 12:13:07.0359 [main] INFO  s.d.s.web.OperationsKeyGenerator-[Line:51]>Cache key generated: /create/chinese/query.com.controller.ChineseCodeController.findPackage.DefaultGenericTypeNamingStrategy
+2020-03-23 12:13:07.0359 [main] INFO  s.d.spring.web.caching.CachingAspect-[Line:68]>Caching aspect applied for cache operations with key /create/chinese/query.com.controller.ChineseCodeController.findPackage.DefaultGenericTypeNamingStrategy
+2020-03-23 12:13:07.0361 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method findPackage was chinese-code-controller
+2020-03-23 12:13:07.0362 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method findPackage was chinese-code-controller
+2020-03-23 12:13:07.0363 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method findPackage was chinese-code-controller
+2020-03-23 12:13:07.0364 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method findPackage was chinese-code-controller
+2020-03-23 12:13:07.0370 [main] INFO  s.d.schema.ModelContextKeyGenerator-[Line:46]>Cache Key Generated: java.lang.String(true)
+2020-03-23 12:13:07.0370 [main] INFO  s.d.spring.web.caching.CachingAspect-[Line:79]>Caching aspect applied for cache models with key java.lang.String(true)
+2020-03-23 12:13:07.0371 [main] INFO  s.d.schema.ModelContextKeyGenerator-[Line:46]>Cache Key Generated: java.lang.String(true)
+2020-03-23 12:13:07.0371 [main] INFO  s.d.spring.web.caching.CachingAspect-[Line:79]>Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+2020-03-23 12:13:07.0371 [main] INFO  s.d.s.web.OperationsKeyGenerator-[Line:51]>Cache key generated: /count/numOfUses.com.controller.CountCodeController.countBatch.DefaultGenericTypeNamingStrategy
+2020-03-23 12:13:07.0371 [main] INFO  s.d.spring.web.caching.CachingAspect-[Line:68]>Caching aspect applied for cache operations with key /count/numOfUses.com.controller.CountCodeController.countBatch.DefaultGenericTypeNamingStrategy
+2020-03-23 12:13:07.0372 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method countBatch was count-code-controller
+2020-03-23 12:13:07.0373 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method countBatch was count-code-controller
+2020-03-23 12:13:07.0374 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method countBatch was count-code-controller
+2020-03-23 12:13:07.0374 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method countBatch was count-code-controller
+2020-03-23 12:13:07.0377 [main] INFO  s.d.schema.ModelContextKeyGenerator-[Line:46]>Cache Key Generated: java.lang.String(true)
+2020-03-23 12:13:07.0377 [main] INFO  s.d.spring.web.caching.CachingAspect-[Line:79]>Caching aspect applied for cache models with key java.lang.String(true)
+2020-03-23 12:13:07.0377 [main] INFO  s.d.schema.ModelContextKeyGenerator-[Line:46]>Cache Key Generated: java.lang.String(true)
+2020-03-23 12:13:07.0377 [main] INFO  s.d.spring.web.caching.CachingAspect-[Line:79]>Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+2020-03-23 12:13:07.0378 [main] INFO  s.d.s.web.OperationsKeyGenerator-[Line:51]>Cache key generated: /file/expload.com.controller.DownLoadController.expload.DefaultGenericTypeNamingStrategy
+2020-03-23 12:13:07.0378 [main] INFO  s.d.spring.web.caching.CachingAspect-[Line:68]>Caching aspect applied for cache operations with key /file/expload.com.controller.DownLoadController.expload.DefaultGenericTypeNamingStrategy
+2020-03-23 12:13:07.0379 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method expload was down-load-controller
+2020-03-23 12:13:07.0383 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method expload was down-load-controller
+2020-03-23 12:13:07.0384 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method expload was down-load-controller
+2020-03-23 12:13:07.0385 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method expload was down-load-controller
+2020-03-23 12:13:07.0386 [main] INFO  s.d.schema.ModelContextKeyGenerator-[Line:46]>Cache Key Generated: java.lang.String(true)
+2020-03-23 12:13:07.0387 [main] INFO  s.d.spring.web.caching.CachingAspect-[Line:79]>Caching aspect applied for cache models with key java.lang.String(true)
+2020-03-23 12:13:07.0387 [main] INFO  s.d.schema.ModelContextKeyGenerator-[Line:46]>Cache Key Generated: java.lang.String(true)
+2020-03-23 12:13:07.0387 [main] INFO  s.d.spring.web.caching.CachingAspect-[Line:79]>Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+2020-03-23 12:13:07.0388 [main] INFO  s.d.s.web.OperationsKeyGenerator-[Line:51]>Cache key generated: /package/code/create.com.controller.InvitationCodeController.createInvitation.DefaultGenericTypeNamingStrategy
+2020-03-23 12:13:07.0388 [main] INFO  s.d.spring.web.caching.CachingAspect-[Line:68]>Caching aspect applied for cache operations with key /package/code/create.com.controller.InvitationCodeController.createInvitation.DefaultGenericTypeNamingStrategy
+2020-03-23 12:13:07.0391 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method createInvitation was invitation-code-controller
+2020-03-23 12:13:07.0392 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method createInvitation was invitation-code-controller
+2020-03-23 12:13:07.0393 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator-[Line:40]>Generating unique operation named: createInvitationUsingPOST_1
+2020-03-23 12:13:07.0394 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method createInvitation was invitation-code-controller
+2020-03-23 12:13:07.0395 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method createInvitation was invitation-code-controller
+2020-03-23 12:13:07.0396 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator-[Line:40]>Generating unique operation named: createInvitationUsingGET_1
+2020-03-23 12:13:07.0397 [main] INFO  s.d.schema.ModelContextKeyGenerator-[Line:46]>Cache Key Generated: java.lang.String(true)
+2020-03-23 12:13:07.0398 [main] INFO  s.d.spring.web.caching.CachingAspect-[Line:79]>Caching aspect applied for cache models with key java.lang.String(true)
+2020-03-23 12:13:07.0398 [main] INFO  s.d.schema.ModelContextKeyGenerator-[Line:46]>Cache Key Generated: java.lang.String(true)
+2020-03-23 12:13:07.0398 [main] INFO  s.d.spring.web.caching.CachingAspect-[Line:79]>Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+2020-03-23 12:13:07.0398 [main] INFO  s.d.s.web.OperationsKeyGenerator-[Line:51]>Cache key generated: /package/code/query.com.controller.InvitationCodeController.findInvitation.DefaultGenericTypeNamingStrategy
+2020-03-23 12:13:07.0398 [main] INFO  s.d.spring.web.caching.CachingAspect-[Line:68]>Caching aspect applied for cache operations with key /package/code/query.com.controller.InvitationCodeController.findInvitation.DefaultGenericTypeNamingStrategy
+2020-03-23 12:13:07.0399 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method findInvitation was invitation-code-controller
+2020-03-23 12:13:07.0400 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method findInvitation was invitation-code-controller
+2020-03-23 12:13:07.0401 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method findInvitation was invitation-code-controller
+2020-03-23 12:13:07.0401 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method findInvitation was invitation-code-controller
+2020-03-23 12:13:07.0403 [main] INFO  s.d.schema.ModelContextKeyGenerator-[Line:46]>Cache Key Generated: java.lang.String(true)
+2020-03-23 12:13:07.0404 [main] INFO  s.d.spring.web.caching.CachingAspect-[Line:79]>Caching aspect applied for cache models with key java.lang.String(true)
+2020-03-23 12:13:07.0405 [main] INFO  s.d.schema.ModelContextKeyGenerator-[Line:46]>Cache Key Generated: java.lang.String(true)
+2020-03-23 12:13:07.0405 [main] INFO  s.d.spring.web.caching.CachingAspect-[Line:79]>Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+2020-03-23 12:13:07.0405 [main] INFO  s.d.s.web.OperationsKeyGenerator-[Line:51]>Cache key generated: /package/create.com.controller.PackageInfoController.createPackage.DefaultGenericTypeNamingStrategy
+2020-03-23 12:13:07.0406 [main] INFO  s.d.spring.web.caching.CachingAspect-[Line:68]>Caching aspect applied for cache operations with key /package/create.com.controller.PackageInfoController.createPackage.DefaultGenericTypeNamingStrategy
+2020-03-23 12:13:07.0406 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method createPackage was package-info-controller
+2020-03-23 12:13:07.0407 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method createPackage was package-info-controller
+2020-03-23 12:13:07.0408 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method createPackage was package-info-controller
+2020-03-23 12:13:07.0409 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method createPackage was package-info-controller
+2020-03-23 12:13:07.0409 [main] INFO  s.d.schema.ModelContextKeyGenerator-[Line:46]>Cache Key Generated: java.lang.String(true)
+2020-03-23 12:13:07.0409 [main] INFO  s.d.spring.web.caching.CachingAspect-[Line:79]>Caching aspect applied for cache models with key java.lang.String(true)
+2020-03-23 12:13:07.0410 [main] INFO  s.d.schema.ModelContextKeyGenerator-[Line:46]>Cache Key Generated: java.lang.String(true)
+2020-03-23 12:13:07.0410 [main] INFO  s.d.spring.web.caching.CachingAspect-[Line:79]>Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+2020-03-23 12:13:07.0410 [main] INFO  s.d.s.web.OperationsKeyGenerator-[Line:51]>Cache key generated: /package/delete.com.controller.PackageInfoController.deletePackage.DefaultGenericTypeNamingStrategy
+2020-03-23 12:13:07.0410 [main] INFO  s.d.spring.web.caching.CachingAspect-[Line:68]>Caching aspect applied for cache operations with key /package/delete.com.controller.PackageInfoController.deletePackage.DefaultGenericTypeNamingStrategy
+2020-03-23 12:13:07.0411 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method deletePackage was package-info-controller
+2020-03-23 12:13:07.0412 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method deletePackage was package-info-controller
+2020-03-23 12:13:07.0413 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method deletePackage was package-info-controller
+2020-03-23 12:13:07.0414 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method deletePackage was package-info-controller
+2020-03-23 12:13:07.0416 [main] INFO  s.d.schema.ModelContextKeyGenerator-[Line:46]>Cache Key Generated: java.lang.String(true)
+2020-03-23 12:13:07.0416 [main] INFO  s.d.spring.web.caching.CachingAspect-[Line:79]>Caching aspect applied for cache models with key java.lang.String(true)
+2020-03-23 12:13:07.0416 [main] INFO  s.d.schema.ModelContextKeyGenerator-[Line:46]>Cache Key Generated: java.lang.String(true)
+2020-03-23 12:13:07.0416 [main] INFO  s.d.spring.web.caching.CachingAspect-[Line:79]>Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+2020-03-23 12:13:07.0416 [main] INFO  s.d.s.web.OperationsKeyGenerator-[Line:51]>Cache key generated: /package/find_all.com.controller.PackageInfoController.findAllPackage.DefaultGenericTypeNamingStrategy
+2020-03-23 12:13:07.0417 [main] INFO  s.d.spring.web.caching.CachingAspect-[Line:68]>Caching aspect applied for cache operations with key /package/find_all.com.controller.PackageInfoController.findAllPackage.DefaultGenericTypeNamingStrategy
+2020-03-23 12:13:07.0417 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method findAllPackage was package-info-controller
+2020-03-23 12:13:07.0417 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method findAllPackage was package-info-controller
+2020-03-23 12:13:07.0418 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method findAllPackage was package-info-controller
+2020-03-23 12:13:07.0419 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method findAllPackage was package-info-controller
+2020-03-23 12:13:07.0419 [main] INFO  s.d.schema.ModelContextKeyGenerator-[Line:46]>Cache Key Generated: java.lang.String(true)
+2020-03-23 12:13:07.0420 [main] INFO  s.d.spring.web.caching.CachingAspect-[Line:79]>Caching aspect applied for cache models with key java.lang.String(true)
+2020-03-23 12:13:07.0420 [main] INFO  s.d.schema.ModelContextKeyGenerator-[Line:46]>Cache Key Generated: java.lang.String(true)
+2020-03-23 12:13:07.0420 [main] INFO  s.d.spring.web.caching.CachingAspect-[Line:79]>Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+2020-03-23 12:13:07.0420 [main] INFO  s.d.s.web.OperationsKeyGenerator-[Line:51]>Cache key generated: /package/query.com.controller.PackageInfoController.findPackage.DefaultGenericTypeNamingStrategy
+2020-03-23 12:13:07.0420 [main] INFO  s.d.spring.web.caching.CachingAspect-[Line:68]>Caching aspect applied for cache operations with key /package/query.com.controller.PackageInfoController.findPackage.DefaultGenericTypeNamingStrategy
+2020-03-23 12:13:07.0421 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method findPackage was package-info-controller
+2020-03-23 12:13:07.0421 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method findPackage was package-info-controller
+2020-03-23 12:13:07.0421 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator-[Line:40]>Generating unique operation named: findPackageUsingPOST_1
+2020-03-23 12:13:07.0422 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method findPackage was package-info-controller
+2020-03-23 12:13:07.0422 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method findPackage was package-info-controller
+2020-03-23 12:13:07.0423 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator-[Line:40]>Generating unique operation named: findPackageUsingGET_1
+2020-03-23 12:13:07.0423 [main] INFO  s.d.schema.ModelContextKeyGenerator-[Line:46]>Cache Key Generated: java.lang.String(true)
+2020-03-23 12:13:07.0423 [main] INFO  s.d.spring.web.caching.CachingAspect-[Line:79]>Caching aspect applied for cache models with key java.lang.String(true)
+2020-03-23 12:13:07.0424 [main] INFO  s.d.schema.ModelContextKeyGenerator-[Line:46]>Cache Key Generated: java.lang.String(true)
+2020-03-23 12:13:07.0424 [main] INFO  s.d.spring.web.caching.CachingAspect-[Line:79]>Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+2020-03-23 12:13:07.0424 [main] INFO  s.d.s.web.OperationsKeyGenerator-[Line:51]>Cache key generated: /package/update.com.controller.PackageInfoController.modifyPackage.DefaultGenericTypeNamingStrategy
+2020-03-23 12:13:07.0424 [main] INFO  s.d.spring.web.caching.CachingAspect-[Line:68]>Caching aspect applied for cache operations with key /package/update.com.controller.PackageInfoController.modifyPackage.DefaultGenericTypeNamingStrategy
+2020-03-23 12:13:07.0424 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method modifyPackage was package-info-controller
+2020-03-23 12:13:07.0425 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method modifyPackage was package-info-controller
+2020-03-23 12:13:07.0425 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method modifyPackage was package-info-controller
+2020-03-23 12:13:07.0426 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method modifyPackage was package-info-controller
+2020-03-23 12:13:07.0427 [main] INFO  s.d.schema.ModelContextKeyGenerator-[Line:46]>Cache Key Generated: java.lang.String(true)
+2020-03-23 12:13:07.0427 [main] INFO  s.d.spring.web.caching.CachingAspect-[Line:79]>Caching aspect applied for cache models with key java.lang.String(true)
+2020-03-23 12:13:07.0427 [main] INFO  s.d.schema.ModelContextKeyGenerator-[Line:46]>Cache Key Generated: java.lang.String(true)
+2020-03-23 12:13:07.0427 [main] INFO  s.d.spring.web.caching.CachingAspect-[Line:79]>Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+2020-03-23 12:13:07.0428 [main] INFO  s.d.s.web.OperationsKeyGenerator-[Line:51]>Cache key generated: /package/use.com.controller.UseGiftCodeController.useGiftCode.DefaultGenericTypeNamingStrategy
+2020-03-23 12:13:07.0428 [main] INFO  s.d.spring.web.caching.CachingAspect-[Line:68]>Caching aspect applied for cache operations with key /package/use.com.controller.UseGiftCodeController.useGiftCode.DefaultGenericTypeNamingStrategy
+2020-03-23 12:13:07.0428 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method useGiftCode was use-gift-code-controller
+2020-03-23 12:13:07.0429 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method useGiftCode was use-gift-code-controller
+2020-03-23 12:13:07.0430 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method useGiftCode was use-gift-code-controller
+2020-03-23 12:13:07.0430 [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping-[Line:100]>Group for method useGiftCode was use-gift-code-controller
+2020-03-23 12:13:07.0443 [main] INFO  o.a.coyote.http11.Http11NioProtocol-[Line:180]>Starting ProtocolHandler ["http-nio-9898"]
+2020-03-23 12:13:07.0455 [main] INFO  o.a.tomcat.util.net.NioSelectorPool-[Line:180]>Using a shared selector for servlet write/read
+2020-03-23 12:13:07.0477 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer-[Line:87]>Tomcat started on port(s): 9898 (http) with context path ''
+2020-03-23 12:13:07.0482 [main] INFO  com.Application-[Line:87]>Started Application in 9.172 seconds (JVM running for 9.803)
+2020-03-23 12:13:07.0528 [main] INFO  o.h.h.i.QueryTranslatorFactoryInitiator-[Line:47]>HHH000397: Using ASTQueryTranslatorFactory
+2020-03-23 12:13:07.0730 [main] INFO  com.Application-[Line:24]>server start success,Mon Mar 23 12:13:07 CST 2020
+2020-03-23 12:13:12.0831 [http-nio-9898-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]-[Line:180]>Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-03-23 12:13:12.0832 [http-nio-9898-exec-2] INFO  o.s.web.servlet.DispatcherServlet-[Line:87]>FrameworkServlet 'dispatcherServlet': initialization started
+2020-03-23 12:13:12.0863 [http-nio-9898-exec-2] INFO  o.s.web.servlet.DispatcherServlet-[Line:87]>FrameworkServlet 'dispatcherServlet': initialization completed in 31 ms
+2020-03-23 12:13:13.0079 [http-nio-9898-exec-2] INFO  CsvUtils.class-[Line:93]>生成csv成功
+2020-03-23 12:30:04.0111 [http-nio-9898-exec-3] INFO  CsvUtils.class-[Line:93]>生成csv成功
